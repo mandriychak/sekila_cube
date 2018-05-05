@@ -6,10 +6,37 @@
     <Name>sekila_ssas.database</Name>
     <FullPath>sekila_ssas.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Sakila DWH.ds</Name>
+      <FullPath>Sakila DWH.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Sakila DWH.dsv</Name>
+      <FullPath>Sakila DWH.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Sakila DWH</Id>
+            <Name>Sakila DWH</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-U7JQ2B2\MM;Integrated Security=SSPI;Initial Catalog=sakila_DWH</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Sakila DWH</Id>
+            <Name>Sakila DWH</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
