@@ -6,6 +6,12 @@
     <Name>sekila_ssas.database</Name>
     <FullPath>sekila_ssas.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Language.dim</Name>
+      <FullPath>Dim Language.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Sakila DWH.ds</Name>
