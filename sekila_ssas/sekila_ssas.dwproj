@@ -20,8 +20,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Sakila DWH.dsv</Name>
-      <FullPath>Sakila DWH.dsv</FullPath>
+      <Name>Sakila_DWH.dsv</Name>
+      <FullPath>Sakila_DWH.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
