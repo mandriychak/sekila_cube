@@ -21,5 +21,45 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Film Category</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="389d1355-e00f-474e-bcc2-2dbf952eb291">
+          <ID>Film Category</ID>
+          <Name>Film Category</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c95c947e-0663-4bca-8b1f-98979a69345e">
+            <DataSourceViewID>Sakila DWH 1</DataSourceViewID>
+            <TableID>dbo_Film_Category</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Film Actor</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f94e0a61-a595-40c3-aa66-25ebdb19c4ef">
+          <ID>Film Actor</ID>
+          <Name>Film Actor</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8905de05-7281-4e58-a215-557e9189489a">
+            <DataSourceViewID>Sakila DWH 1</DataSourceViewID>
+            <TableID>dbo_Film_Actor</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

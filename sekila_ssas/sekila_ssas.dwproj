@@ -31,6 +31,10 @@
       <Name>Dim Category.dim</Name>
       <FullPath>Dim Category.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Actor.dim</Name>
+      <FullPath>Dim Actor.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

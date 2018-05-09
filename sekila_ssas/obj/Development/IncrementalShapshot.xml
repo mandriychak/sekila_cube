@@ -53,8 +53,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>n1x4lUf/HC63BY6qCkiV9XNdJM0=5/9/2018 10:57:03 AM5/9/2018 10:57:03 AM</TimeStamp>
+        <ID>
+          <String>Dim Actor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>e62QFFu/FReo77VoY/YogeeCEMg=5/9/2018 8:43:27 AM5/9/2018 8:24:43 AMTUZoc+HgLlTrNyI9rFHLXP2qwj0=5/9/2018 8:24:44 AM5/9/2018 8:24:43 AM</TimeStamp>
+        <TimeStamp>67wVtcY63wRvRFQAlGbX54NyXoA=5/9/2018 11:11:36 AM5/9/2018 8:24:43 AMytxmFDt5NJHQ39UwJSU/VLWcUHw=5/9/2018 11:08:38 AM5/9/2018 8:24:43 AM</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -71,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-05-09T06:36:59.066667Z</LastDeployed>
+  <LastDeployed>2018-05-09T08:11:39.453333Z</LastDeployed>
 </DeploymentSnapshot>

@@ -20,6 +20,9 @@
       <Dimension>
         <ID>Dim Category</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Actor</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -30,6 +33,22 @@
             <Partitions>
               <Partition>
                 <ID>Facts</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Film Category</ID>
+            <Partitions>
+              <Partition>
+                <ID>Film Category</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Film Actor</ID>
+            <Partitions>
+              <Partition>
+                <ID>Film Actor</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
