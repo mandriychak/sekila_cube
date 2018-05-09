@@ -27,6 +27,10 @@
       <Name>Dim Film.dim</Name>
       <FullPath>Dim Film.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Category.dim</Name>
+      <FullPath>Dim Category.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

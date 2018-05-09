@@ -17,6 +17,9 @@
       <Dimension>
         <ID>Dim Film</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Category</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
