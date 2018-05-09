@@ -28,12 +28,28 @@
       <FullPath>Dim Film.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Dim Actor.dim</Name>
+      <FullPath>Dim Actor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Employee.dim</Name>
+      <FullPath>Dim Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Geography.dim</Name>
+      <FullPath>Dim Geography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Dim Category.dim</Name>
       <FullPath>Dim Category.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Actor.dim</Name>
-      <FullPath>Dim Actor.dim</FullPath>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

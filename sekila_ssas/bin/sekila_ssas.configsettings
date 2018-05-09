@@ -18,10 +18,22 @@
         <ID>Dim Film</ID>
       </Dimension>
       <Dimension>
+        <ID>Dim Actor</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Employee</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Geography</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Date</ID>
+      </Dimension>
+      <Dimension>
         <ID>Dim Category</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Actor</ID>
+        <ID>Dim Customer</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
