@@ -26,70 +26,70 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>pmN8awryi47RyUhm4wKPRvJeyJA=09-May-18 14:30:3409-May-18 11:18:28</TimeStamp>
+        <TimeStamp>pmN8awryi47RyUhm4wKPRvJeyJA=09-May-18 14:40:3109-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Sakila DWH 1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>NkN3/1Pw2sJxMxMcSWfAxHpgOb8=09-May-18 13:27:1509-May-18 11:18:28</TimeStamp>
+        <TimeStamp>NkN3/1Pw2sJxMxMcSWfAxHpgOb8=09-May-18 14:41:0809-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Dim Language</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>00YRpIUsamDWs7qeqABBOziIEoo=09-May-18 14:35:3209-May-18 11:18:28</TimeStamp>
+        <TimeStamp>00YRpIUsamDWs7qeqABBOziIEoo=09-May-18 14:41:1309-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Dim Film</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3j/NYXYV5UtD72GAkH16tjNuUrU=09-May-18 13:28:0609-May-18 11:18:28</TimeStamp>
+        <TimeStamp>3j/NYXYV5UtD72GAkH16tjNuUrU=09-May-18 14:41:1709-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Dim Actor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MMhrqtciCI6RaAGgruOgsPM83i0=09-May-18 13:27:3509-May-18 11:52:11</TimeStamp>
+        <TimeStamp>MMhrqtciCI6RaAGgruOgsPM83i0=09-May-18 14:41:2009-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Employee</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ac3UHEPAqrwvfhuOzPKD2/abHX0=09-May-18 13:39:2109-May-18 11:52:39</TimeStamp>
+        <TimeStamp>Ac3UHEPAqrwvfhuOzPKD2/abHX0=09-May-18 14:41:2409-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Geography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>BDimJ9/zgI8bzF/SHN+WzAqq2Sg=09-May-18 14:32:3009-May-18 11:53:30</TimeStamp>
+        <TimeStamp>BDimJ9/zgI8bzF/SHN+WzAqq2Sg=09-May-18 14:41:2709-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jPaknkDedwZknhkTrkM2g1mxRbg=09-May-18 13:27:0109-May-18 12:54:53</TimeStamp>
+        <TimeStamp>jPaknkDedwZknhkTrkM2g1mxRbg=09-May-18 14:41:3109-May-18 12:54:53</TimeStamp>
         <ID>
           <String>Dim Category</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HQNf8uguh+5U/Af28n2OI3p7jDo=09-May-18 14:36:5009-May-18 13:01:55</TimeStamp>
+        <TimeStamp>HQNf8uguh+5U/Af28n2OI3p7jDo=09-May-18 14:41:3609-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>gmSp6ilqF0omJh3P1WVLy3AW6dA=09-May-18 14:37:3109-May-18 11:18:28ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
+        <TimeStamp>gmSp6ilqF0omJh3P1WVLy3AW6dA=09-May-18 14:40:2209-May-18 14:38:49ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-05-09T11:37:42.143333Z</LastDeployed>
+  <LastDeployed>2018-05-09T11:41:46.05Z</LastDeployed>
 </DeploymentSnapshot>
