@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>Sakila DWH</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-U7JQ2B2\MM;Integrated Security=SSPI;Initial Catalog=sakila_DWH</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=sakila_DWH</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,25 +12,10 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Dim Geography</ID>
+        <ID>Dim Language</ID>
       </Dimension>
       <Dimension>
         <ID>Dim Film</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Date</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Language 1</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Customer</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Employee</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Language</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

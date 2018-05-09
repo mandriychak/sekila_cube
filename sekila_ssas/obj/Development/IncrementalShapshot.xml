@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,70 +19,35 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>0+9iEvlVANN4c8XW6MsXMaIBhVs=2018-05-05 06:44:442018-05-05 06:39:33</TimeStamp>
+        <TimeStamp>V/dNm3WfHX3B8tXmD9rwM5XJbXw=5/9/2018 8:17:17 AM5/9/2018 8:12:53 AM</TimeStamp>
         <ID>
           <String>Sakila DWH</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>fqSaFiSKeUs7f8UMNnwEHAk1kEw=2018-05-08 21:52:092018-05-08 20:31:33</TimeStamp>
+        <TimeStamp>fqSaFiSKeUs7f8UMNnwEHAk1kEw=5/9/2018 8:13:08 AM5/9/2018 8:13:08 AM</TimeStamp>
         <ID>
           <String>Sakila DWH 1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dDZyuZZYCpvJmRfdK38aostyuOU=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Geography</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>8+Bt3QbENp0bwP94m1BsyOUfpZA=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Film</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>FtTsJd8QOL1Jw0FYVXpabZ8UGAc=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Date</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YNvUIB01wiY/Pqr8bHV7VW5S8yk=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Language 1</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>E6aCZApajp+D2qzAmizq7GAa8J0=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Customer</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6Et/OayALLC4zJ7BZ3Kc6rc3XOE=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
-        <ID>
-          <String>Dim Employee</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9TVJM7dxIe/gJB3Oi3BxZ5qd/vQ=2018-05-08 22:02:392018-05-08 22:02:39</TimeStamp>
+        <TimeStamp>sTvYDlxlpEfVLCPcAONhG0Dp0Oc=5/9/2018 8:13:08 AM5/9/2018 8:13:08 AM</TimeStamp>
         <ID>
           <String>Dim Language</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QCh19c5zUmwdpuIJN71EGu1iuvM=5/9/2018 8:30:48 AM5/9/2018 8:30:48 AM</TimeStamp>
+        <ID>
+          <String>Dim Film</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>p0iB4k3SAt2TUqq0/b07578Q9ZM=2018-05-08 22:01:482018-05-08 22:01:08e7AAn+n56Wo2nRTC5djHi13kMls=2018-05-08 22:01:092018-05-08 22:01:09</TimeStamp>
+        <TimeStamp>kpw+NFbIJgl48TfWBmZqwqPHXz4=5/9/2018 8:24:44 AM5/9/2018 8:24:43 AMTUZoc+HgLlTrNyI9rFHLXP2qwj0=5/9/2018 8:24:44 AM5/9/2018 8:24:43 AM</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -90,7 +55,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>gMXb2Asd4dgsPEw443PFRUNNOHc=2018-05-05 06:31:322018-05-05 06:31:32</TimeStamp>
+      <TimeStamp>gMXb2Asd4dgsPEw443PFRUNNOHc=5/5/2018 11:39:08 AM5/5/2018 11:39:08 AM</TimeStamp>
       <ID>
         <String>sekila_ssas</String>
       </ID>
@@ -98,6 +63,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2018-05-08T19:03:04.493333Z</LastDeployed>
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-05-09T05:31:56.116667Z</LastDeployed>
 </DeploymentSnapshot>

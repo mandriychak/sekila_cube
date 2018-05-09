@@ -1,0 +1,132 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4d0be1b3-25aa-40fc-8e0a-fbba5999a63a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sakila_DWH</ID>
+  <Name>Sakila_DWH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="eae77d41-f05b-4f2a-91a3-e487139ecfe2">
+      <ID>Dim Language</ID>
+      <Name>Dim Language</Name>
+      <DimensionID>Dim Language</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b13324e4-7694-4740-bf72-396b576e7aa0">
+          <AttributeID>Lang Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39761823-29c3-4c20-8264-6268c5710cdd">
+          <AttributeID>Language Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="200ef7d5-1c13-43d2-8937-d0796b6cb173">
+      <ID>Facts</ID>
+      <Name>Facts</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bbad0caa-609f-4509-87cd-b1a67647043f">
+          <ID>Amount</ID>
+          <Name>Amount</Name>
+          <Source dwd:design-time-name="574b5637-d75d-4cbe-896a-7fe3dcc9b84e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1ed209aa-76da-434a-a95a-f8ffc7eb8562">
+              <TableID>dbo_Facts</TableID>
+              <ColumnID>amount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="90ff40ce-150c-4d13-9332-85b96f519b41">
+          <ID>Rent Days</ID>
+          <Name>Rent Days</Name>
+          <Source dwd:design-time-name="ee7d07d8-1762-4b0c-8eb7-1e8f16e39a04">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1d213a6c-c70d-40b8-9bc0-9faa4ac51dd3">
+              <TableID>dbo_Facts</TableID>
+              <ColumnID>rent_days</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c30aa46-0df2-4fdc-8a0b-86c1f60fc985">
+          <ID>Facts Count</ID>
+          <Name>Facts Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="952d870a-d01a-4576-9f8a-b32ef13dbeae">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ac1d508b-eb16-43c7-8a7d-50c7ed656d59">
+              <TableID>dbo_Facts</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="37bcb3b2-e842-4c4e-bbbe-1a86fdd0265b">
+          <CubeDimensionID>Dim Language</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="102f5d39-c06d-4272-9b4b-859fabec98d1">
+              <AttributeID>Lang Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ebc73392-c716-4320-a9d5-528810a75bac">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="be6eeeeb-957c-4bff-88d7-a73528e57f11">
+                    <TableID>dbo_Facts</TableID>
+                    <ColumnID>lang_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="dba25e54-cb7e-41bd-a700-7358088b3bbf">
+    <DataSourceViewID>Sakila DWH 1</DataSourceViewID>
+  </Source>
+</Cube>
