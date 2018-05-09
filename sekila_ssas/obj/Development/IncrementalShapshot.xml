@@ -60,8 +60,36 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FZ8RdQs59KRLadRotBcfJO7fGP0=5/9/2018 11:45:29 AM5/9/2018 11:45:04 AM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OBMLotBUWU5paDchYk9k07TkAWw=5/9/2018 11:47:44 AM5/9/2018 11:47:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Q2aj0N5oDiLT5H97HMZt/CCrdv8=5/9/2018 11:50:19 AM5/9/2018 11:50:19 AM</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2l041kOl04ibj3yg1KzSwOW6N9Y=5/9/2018 11:52:08 AM5/9/2018 11:52:08 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>67wVtcY63wRvRFQAlGbX54NyXoA=5/9/2018 11:11:36 AM5/9/2018 8:24:43 AMytxmFDt5NJHQ39UwJSU/VLWcUHw=5/9/2018 11:08:38 AM5/9/2018 8:24:43 AM</TimeStamp>
+        <TimeStamp>2umETpj8WpLEp3Roa7egKTFCiXA=5/9/2018 11:55:35 AM5/9/2018 8:24:43 AMytxmFDt5NJHQ39UwJSU/VLWcUHw=5/9/2018 11:08:38 AM5/9/2018 8:24:43 AM</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -78,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-05-09T08:11:39.453333Z</LastDeployed>
+  <LastDeployed>2018-05-09T08:56:04.163333Z</LastDeployed>
 </DeploymentSnapshot>
