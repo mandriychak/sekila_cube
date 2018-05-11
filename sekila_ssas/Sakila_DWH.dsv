@@ -699,13 +699,6 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="week_month_year" msdata:ReadOnly="true" msprop:design-time-name="a4ee7f67-c08c-44e1-9097-b69ab0f78040" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="week_month_year" msprop:ComputedColumnExpression="cast(calendar_year as varchar(4))+' month '+right(('00'+cast(month_number_of_year as varchar(2))), 2)+' week ' + cast(week_number_of_month as varchar(1))" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -754,45 +747,45 @@
           <xs:selector xpath=".//dbo_dimDate" />
           <xs:field xpath="date_id" />
         </xs:unique>
+        <xs:keyref name="FK_Film_Actor_to_dimFilm" refer="dbo_dimFilm_Constraint1">
+          <xs:selector xpath=".//dbo_Film_Actor" />
+          <xs:field xpath="film_id" />
+        </xs:keyref>
         <xs:keyref name="FK_Film_Actor_to_dimActor" refer="dbo_dimActor_Constraint1">
           <xs:selector xpath=".//dbo_Film_Actor" />
           <xs:field xpath="actor_id" />
         </xs:keyref>
-        <xs:keyref name="FK_Film_Actor_to_dimFilm" refer="dbo_dimFilm_Constraint1">
-          <xs:selector xpath=".//dbo_Film_Actor" />
+        <xs:keyref name="FK_Film_Category_to_dimFilm" refer="dbo_dimFilm_Constraint1">
+          <xs:selector xpath=".//dbo_Film_Category" />
           <xs:field xpath="film_id" />
         </xs:keyref>
         <xs:keyref name="FK_Film_Category_to_dimCategory" refer="Constraint1">
           <xs:selector xpath=".//dbo_Film_Category" />
           <xs:field xpath="category_id" />
         </xs:keyref>
-        <xs:keyref name="FK_Film_Category_to_dimFilm" refer="dbo_dimFilm_Constraint1">
-          <xs:selector xpath=".//dbo_Film_Category" />
-          <xs:field xpath="film_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_Facts_to_dimGeography" refer="dbo_dimGeography_Constraint1">
+        <xs:keyref name="FK_Facts_to_dimEmployee" refer="dbo_dimEmployee_Constraint1">
           <xs:selector xpath=".//dbo_Facts" />
-          <xs:field xpath="geo_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_Facts_to_dimFilm" refer="dbo_dimFilm_Constraint1">
-          <xs:selector xpath=".//dbo_Facts" />
-          <xs:field xpath="film_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_Facts_to_dimDate" refer="dbo_dimDate_Constraint1">
-          <xs:selector xpath=".//dbo_Facts" />
-          <xs:field xpath="date_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_Facts_to_dimLanguage" refer="dbo_dimLanguage_Constraint1">
-          <xs:selector xpath=".//dbo_Facts" />
-          <xs:field xpath="lang_id" />
+          <xs:field xpath="employee_id" />
         </xs:keyref>
         <xs:keyref name="FK_Facts_to_dimCustomer" refer="dbo_dimCustomer_Constraint1">
           <xs:selector xpath=".//dbo_Facts" />
           <xs:field xpath="customer_id" />
         </xs:keyref>
-        <xs:keyref name="FK_Facts_to_dimEmployee" refer="dbo_dimEmployee_Constraint1">
+        <xs:keyref name="FK_Facts_to_dimLanguage" refer="dbo_dimLanguage_Constraint1">
           <xs:selector xpath=".//dbo_Facts" />
-          <xs:field xpath="employee_id" />
+          <xs:field xpath="lang_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facts_to_dimDate" refer="dbo_dimDate_Constraint1">
+          <xs:selector xpath=".//dbo_Facts" />
+          <xs:field xpath="date_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facts_to_dimFilm" refer="dbo_dimFilm_Constraint1">
+          <xs:selector xpath=".//dbo_Facts" />
+          <xs:field xpath="film_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Facts_to_dimGeography" refer="dbo_dimGeography_Constraint1">
+          <xs:selector xpath=".//dbo_Facts" />
+          <xs:field xpath="geo_id" />
         </xs:keyref>
       </xs:element>
     </xs:schema>

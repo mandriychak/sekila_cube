@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>pmN8awryi47RyUhm4wKPRvJeyJA=09-May-18 14:40:3109-May-18 11:18:28</TimeStamp>
+        <TimeStamp>OO1bJIaLrk3+EZ0VJZn+JTR+7c4=11-May-18 23:05:1809-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Sakila DWH 1</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>BDimJ9/zgI8bzF/SHN+WzAqq2Sg=09-May-18 14:41:2709-May-18 14:38:49</TimeStamp>
+        <TimeStamp>OIelgUGY8FIYqxa/mChMVkG9vUc=11-May-18 23:19:1109-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>gmSp6ilqF0omJh3P1WVLy3AW6dA=09-May-18 14:40:2209-May-18 14:38:49ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
+        <TimeStamp>gmSp6ilqF0omJh3P1WVLy3AW6dA=11-May-18 23:09:3609-May-18 14:38:49ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-05-09T11:41:46.05Z</LastDeployed>
+  <LastDeployed>2018-05-11T20:19:50.956667Z</LastDeployed>
 </DeploymentSnapshot>
