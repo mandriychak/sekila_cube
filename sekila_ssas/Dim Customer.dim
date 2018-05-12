@@ -94,9 +94,9 @@
       <NameColumn dwd:design-time-name="504ee94f-76b8-401b-be94-72afbea372f2">
         <DataType>WChar</DataType>
         <DataSize>101</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="80c0a5b5-c605-4539-a7aa-d17af14acbf3">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ac082b19-ea89-4d06-9204-2feda39b3474">
           <TableID>dbo_dimCustomer</TableID>
-          <ColumnID>full_name</ColumnID>
+          <ColumnID>customer_id</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
@@ -124,13 +124,17 @@
           <AttributeID>Last Name</AttributeID>
           <Name>Last Name</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="643eb11c-9200-4fac-b309-d997448165be">
+          <AttributeID>Full Name</AttributeID>
+          <Name>Full Name</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
       <ValueColumn dwd:design-time-name="4a02fc2a-1fdb-4704-9b69-ffb7d9fda01e">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="cbe4acdb-4d1c-4360-8d47-093ca76fdb50">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8f354072-f06f-4454-a154-bbb512dbcae7">
           <TableID>dbo_dimCustomer</TableID>
-          <ColumnID>full_name</ColumnID>
+          <ColumnID>customer_id</ColumnID>
         </Source>
       </ValueColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -230,6 +234,22 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="154f1eff-7104-4510-aa08-6c0d65faa2bb">
             <TableID>dbo_dimCustomer</TableID>
             <ColumnID>last_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a67d3ff8-09d3-46bf-90e0-c0b313a05326">
+      <ID>Full Name</ID>
+      <Name>Full Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2fe45623-7ef2-4973-9f4f-ccab37ee1f62">
+          <DataType>WChar</DataType>
+          <DataSize>101</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ff178d5-def9-420a-a468-918e479f1667">
+            <TableID>dbo_dimCustomer</TableID>
+            <ColumnID>full_name</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

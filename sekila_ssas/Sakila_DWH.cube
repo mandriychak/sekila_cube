@@ -496,6 +496,9 @@
         <Attribute dwd:design-time-name="3e7a85a2-8da7-4684-b5f2-ce12216223a3">
           <AttributeID>Store Country</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="81ff42ac-1739-478e-b75d-e6383902b22c">
+          <AttributeID>Full Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="cecc5d4c-cd83-4885-b0b1-d3c2c8232ecf">
@@ -544,6 +547,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="3bc18200-6686-4c69-a9e2-9cb27a5b4862">
           <AttributeID>Last Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="519006b6-c480-41fd-8108-1cb44a6e80fa">
+          <AttributeID>Full Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>

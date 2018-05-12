@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MMhrqtciCI6RaAGgruOgsPM83i0=09-May-18 14:41:2009-May-18 14:38:49</TimeStamp>
+        <TimeStamp>LXKh4sytWntfEKlzh1/LtTUeE68=12-May-18 15:09:2909-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Employee</String>
         </ID>
@@ -82,14 +82,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HQNf8uguh+5U/Af28n2OI3p7jDo=09-May-18 14:41:3609-May-18 14:38:49</TimeStamp>
+        <TimeStamp>jUdwg9Mrx0THQOKXg/LINiVypBU=12-May-18 15:08:4109-May-18 14:38:49</TimeStamp>
         <ID>
           <String>Dim Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>gmSp6ilqF0omJh3P1WVLy3AW6dA=11-May-18 23:09:3609-May-18 14:38:49ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
+        <TimeStamp>9Ox0xNtKiuyfT7Yx7kllGCGoQ1A=12-May-18 15:09:1309-May-18 14:38:49ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-05-11T20:19:50.956667Z</LastDeployed>
+  <LastDeployed>2018-05-12T12:09:42.22Z</LastDeployed>
 </DeploymentSnapshot>
