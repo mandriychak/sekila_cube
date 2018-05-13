@@ -19,77 +19,85 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>V/dNm3WfHX3B8tXmD9rwM5XJbXw=09-May-18 11:18:2809-May-18 11:18:28</TimeStamp>
+        <TimeStamp>V/dNm3WfHX3B8tXmD9rwM5XJbXw=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Sakila DWH</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>OO1bJIaLrk3+EZ0VJZn+JTR+7c4=11-May-18 23:05:1809-May-18 11:18:28</TimeStamp>
+        <TimeStamp>OO1bJIaLrk3+EZ0VJZn+JTR+7c4=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Sakila DWH 1</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>NkN3/1Pw2sJxMxMcSWfAxHpgOb8=09-May-18 14:41:0809-May-18 11:18:28</TimeStamp>
+        <TimeStamp>NkN3/1Pw2sJxMxMcSWfAxHpgOb8=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Language</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>00YRpIUsamDWs7qeqABBOziIEoo=09-May-18 14:41:1309-May-18 11:18:28</TimeStamp>
+        <TimeStamp>00YRpIUsamDWs7qeqABBOziIEoo=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Film</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3j/NYXYV5UtD72GAkH16tjNuUrU=09-May-18 14:41:1709-May-18 11:18:28</TimeStamp>
+        <TimeStamp>3j/NYXYV5UtD72GAkH16tjNuUrU=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Actor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LXKh4sytWntfEKlzh1/LtTUeE68=12-May-18 15:09:2909-May-18 14:38:49</TimeStamp>
+        <TimeStamp>LXKh4sytWntfEKlzh1/LtTUeE68=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Employee</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ac3UHEPAqrwvfhuOzPKD2/abHX0=09-May-18 14:41:2409-May-18 14:38:49</TimeStamp>
+        <TimeStamp>Ac3UHEPAqrwvfhuOzPKD2/abHX0=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Geography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>OIelgUGY8FIYqxa/mChMVkG9vUc=11-May-18 23:19:1109-May-18 14:38:49</TimeStamp>
+        <TimeStamp>+0nSmWFGNIF8TL0Ns/efwIiHuVg=5/13/2018 4:34:10 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jPaknkDedwZknhkTrkM2g1mxRbg=09-May-18 14:41:3109-May-18 12:54:53</TimeStamp>
+        <TimeStamp>jPaknkDedwZknhkTrkM2g1mxRbg=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
         <ID>
           <String>Dim Category</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
+<<<<<<< HEAD
         <TimeStamp>jUdwg9Mrx0THQOKXg/LINiVypBU=12-May-18 15:45:2712-May-18 15:45:27</TimeStamp>
+=======
+        <TimeStamp>jUdwg9Mrx0THQOKXg/LINiVypBU=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
+>>>>>>> cf9284c74f4235aab6cea304f05a52da26e90f05
         <ID>
           <String>Dim Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
+<<<<<<< HEAD
         <TimeStamp>udof7rCoztXO7YQYQAuzVRyNGRk=13-May-18 17:05:5812-May-18 15:45:39ytxmFDt5NJHQ39UwJSU/VLWcUHw=09-May-18 14:00:4409-May-18 11:18:28</TimeStamp>
+=======
+        <TimeStamp>9Ox0xNtKiuyfT7Yx7kllGCGoQ1A=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PMytxmFDt5NJHQ39UwJSU/VLWcUHw=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
+>>>>>>> cf9284c74f4235aab6cea304f05a52da26e90f05
         <ID>
           <String>Sakila_DWH</String>
         </ID>
@@ -97,7 +105,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>gMXb2Asd4dgsPEw443PFRUNNOHc=09-May-18 11:18:2809-May-18 11:18:28</TimeStamp>
+      <TimeStamp>gMXb2Asd4dgsPEw443PFRUNNOHc=5/12/2018 7:44:13 PM5/12/2018 7:44:13 PM</TimeStamp>
       <ID>
         <String>sekila_ssas</String>
       </ID>
@@ -106,5 +114,9 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
+<<<<<<< HEAD
   <LastDeployed>2018-05-13T15:26:19.956667Z</LastDeployed>
+=======
+  <LastDeployed>2018-05-13T13:36:17.023333Z</LastDeployed>
+>>>>>>> cf9284c74f4235aab6cea304f05a52da26e90f05
 </DeploymentSnapshot>
